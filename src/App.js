@@ -31,7 +31,7 @@ const App = () => {
       params: {
         part: "snippet",
         maxResults: 5,
-        key: "AIzaSyAlQg7NeWOj9OKWDXrFdC2Fg_w4L7RQ0Jg",
+        key: "AIzaSyC_m8CSkjxNDnwlfRcDZ3PsvwhpC6I9kiQ",
         q: searchTerm,
       }
     });
