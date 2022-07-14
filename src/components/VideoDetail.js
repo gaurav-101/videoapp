@@ -11,7 +11,7 @@ const VideoDetail = ({ video: { id: { videoId }, snippet: { title, channelTitle,
 
   return (
     <React.Fragment>
-      <Paper elevation={6} style={{ height: "70%" }}>
+      <Paper elevation={6} style={{ height: "40%", width: "90%"}}>
         <iframe
           frameBorder="0"
           height="100%"
@@ -20,7 +20,7 @@ const VideoDetail = ({ video: { id: { videoId }, snippet: { title, channelTitle,
           src={videoSrc}
         />
       </Paper>
-      <Paper elevation={6} style={{ padding: "15px" }}>
+      <Paper elevation={6} style={{ padding: "15px", width: "86%" }}>
         <Typography variant="h4">
           {title} - {channelTitle}
         </Typography>

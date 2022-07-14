@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Grid } from "@material-ui/core";
+import "./App.css";
 
 import { SearchBar, VideoList, VideoDetail } from "./components";
 
